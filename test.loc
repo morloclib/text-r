@@ -1,0 +1,4 @@
+module test-text-r (test)
+
+import text.test (test)
+import text-r
