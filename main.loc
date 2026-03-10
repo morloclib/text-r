@@ -3,6 +3,7 @@ module text-r (*)
 import text
 import root-r
 
+%inline
 source R from "R/text.R"
     ( "morloc_split" as split
     , "morloc_lines" as lines
